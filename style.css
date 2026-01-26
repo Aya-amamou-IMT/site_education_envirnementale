@@ -120,3 +120,31 @@ body {
     margin-bottom: 10px;
   }
   
+  .hero-image {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    margin-top: 15px;
+    border-radius: 12px;
+  }
+  
+  .hero-header {
+    background-image: url("images/save-earth-environment-day-poster-go-green-ai-generative-background-images-save-water-free-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: rgb(235, 225, 225); 
+  }
+  
+  .hero-header p {
+    font-size: 2rem;
+    color: rgb(250, 246, 246);
+  }
+  
