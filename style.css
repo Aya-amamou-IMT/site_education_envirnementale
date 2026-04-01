@@ -148,3 +148,39 @@ body {
     color: rgb(250, 246, 246);
   }
   
+
+  .bubbles-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px 0;
+  }
+  
+  .bubble {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  }
+  
+  .bubble p {
+    margin-top: 10px;
+  }
+  
+  .bubble-school {
+    background-color: #27ae60;
+  }
+  
+  .bubble-non-school {
+    background-color: #f39c12;
+  }
+  
